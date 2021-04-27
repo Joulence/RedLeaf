@@ -21,8 +21,12 @@
 }
 
 .header_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .header_link {
@@ -31,10 +35,14 @@
     font-size: 20px;
     text-decoration: none;
     font-weight: 600;
+    -webkit-transition: .1s linear transform;
+    -o-transition: .1s linear transform;
     transition: .1s linear transform;
 }
 
 .header_link:hover {
     color: #000;
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
