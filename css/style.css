@@ -1,11 +1,15 @@
+/*
+font-family: 'Open Sans', sans-serif;
+
+ */
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
 body {
-    color: red;
     margin: auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: MyriadPro;
+    font-family: 'Open Sans', sans-serif;
 }
