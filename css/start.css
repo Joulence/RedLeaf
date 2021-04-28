@@ -37,6 +37,8 @@
   font-size: 20px;
   font-weight: 600;
   padding: 10px 20px;
+  -webkit-transition: .1s linear background-color;
+  -o-transition: .1s linear background-color;
   transition: .1s linear background-color;
 }
 

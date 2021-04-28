@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Red Leaf</title>
+        <title>Red Leaf Studio</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" type="image/png" href="img/icon/logo.png"/>
@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/start.css">
         <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/latests.css">
+        <link rel="stylesheet" href="css/footer.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -26,7 +28,7 @@
     </head>
 
     <body>
-        <main class="main">
+        
 
         <header class="header">
 
@@ -58,7 +60,7 @@
 
         </header>
 
-
+        <main class="main">
 
             <div class="start">
                 <div class="start_intro">
@@ -71,7 +73,7 @@
                     </h2>
 
                     <div class="start_intro__button">
-                        <a class="start_intro__button_link" href="#">Contact me</a>
+                        <a class="start_intro__button_link" href="#">Contact us</a>
                       </div>
 
                       <div>
@@ -95,7 +97,7 @@
                         <div class="about__abils_abil">
                             <i class="fas fa-globe"></i>
                             <h1 class="about__abil_title">
-                                Watch the news
+                                Watch the News
                             </h1>
                             <h2 class="about__abil_subtitle">
                                 You can watch and share any progress <br>
@@ -106,7 +108,7 @@
                         <div class="about__abils_abil">
                             <i class="fas fa-hands-helping"></i>
                             <h1 class="about__abil_title">
-                                Help us
+                                Help Us
                             </h1>
                             <h2 class="about__abil_subtitle">
                                 Moreover you can even help us with coding <br>
@@ -117,7 +119,7 @@
                         <div class="about__abils_abil">
                             <i class="far fa-lightbulb"></i>
                             <h1 class="about__abil_title">
-                                Share ideas
+                                Share Ideas
                             </h1>
                             <h2 class="about__abil_subtitle">
                                 And what we really need - your ideas. <br>
@@ -128,8 +130,56 @@
                 </div>
             </div>
 
+            <div class="latest">
+                <div class="latest_intro">
+                    <h1 class="latest_intro__title">
+                        Latests Works
+                    </h1>
+                    <h2 class="latest_intro__subtitle">
+                        Here you can see what we have done or <br>
+                        what we are doing now
+                    </h2>
+                </div>
+
+                <div class="latest_filters">
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                        <button class="btn" onclick="filterSelection('developing')">Developing</button>
+                        <button class="btn" onclick="filterSelection('done')">Done</button>
+                      </div>
+                </div>
+
+                <div class="latest_works">
+                    <div class="container">
+                        <div class="filterDiv developing">
+                            <div class="filterGame_1">
+                                <img src="img/latest/game.jpg" alt="">
+                                <div class="GameTest">
+                                    <h2>Codename:<br>"Text GungeonGame"</h2>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="footer_intro">
+                    <h1 class="footer_intro__title">
+                        © 2021 Joulence – All Right Reserved
+                    </h1>
+
+                    <h1 class="footer_intro__title">
+                        Designed by Joulence
+                    </h1>
+                </div>
+            </footer>
+
 
         </main>
         <script src="js/openav.js"></script>
+        <script src="js/filter.js"></script>
     </body>
 </html>
