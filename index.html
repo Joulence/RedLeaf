@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/start.css">
         <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/latests.css">
+        <link rel="stylesheet" href="css/member.css">
+        <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -73,7 +75,7 @@
                     </h2>
 
                     <div class="start_intro__button">
-                        <a class="start_intro__button_link" href="#">Contact us</a>
+                        <a class="start_intro__button_link" href="#contact">Contact us</a>
                       </div>
 
                       <div>
@@ -159,9 +161,62 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
-
                     </div>
+                </div>
+
+                <div class="latest_end">
+                    <button class="latest_end__button" onclick="myFunction()">view all</button>
+                </div>
+
+            </div>
+
+            <div class="members">
+                <div class="member_intro">
+                    <h1 class="member_intro__title">
+                        Our Team Member
+                    </h1>
+                    <h2 class="member_intro__subtitle">
+                        Here you can see our whole crew
+                    </h2>
+                </div>
+
+                <div class="members_crew">
+                    <div class="crew_member">
+                        <img class="member__photo" src="img/members/photo.jpg" alt="fsociety">
+                        <h1 class="member__name">
+                            Joulence
+                        </h1>
+                        <h2 class="member__work">
+                            Owner, Manager, Developer
+                        </h2>
+                        <div class="member__links">
+                            <a href="https://t.me/redleafgamestudio"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact" id="contact">
+                <div class="contact_intro">
+                    <h1 class="contact_intro__title">
+                        Contact Us
+                    </h1>
+                    <h2 class="contact_intro__subtitle">
+                        Use it to contact us
+                    </h2>
+                </div>
+
+                <div class="contact_toContact">
+                    <form action="https://formspree.io/f/xpzkqqlw"
+                    method="POST" class="contact_form">
+                        <div class="form__intro">
+                            <input class="contact__name" type="text" name="name" placeholder="Your Name">
+                            <input class="contact__email" type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <textarea placeholder="Write Message" name="message" class="contact__area"></textarea><br>
+                        <input class="contact__submit" type="submit" name="submit" value="Send">
+                    </form>
                 </div>
             </div>
 
@@ -181,5 +236,6 @@
         </main>
         <script src="js/openav.js"></script>
         <script src="js/filter.js"></script>
+        <script src="js/clicked.js"></script>
     </body>
 </html>

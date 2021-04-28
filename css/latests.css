@@ -45,6 +45,7 @@
   }
   
   .btn {
+    text-transform: uppercase;
     margin-left: 20px; 
     color: #212121;
     border: 3px solid #00897b;
@@ -102,6 +103,28 @@
 
 .filterGame_1:hover .GameTest{
     display: block;
+}
+
+.latest_end {
+    padding-top: 122px;
+}
+
+.latest_end__button {
+    text-transform: uppercase;
+    color: #212121;
+    border: 3px solid #00897b;
+    background: #fff;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.latest_end__button:hover {
+    background-color: #00897b;
+    color: #fff;
 }
 
 @media (max-width:700px) {

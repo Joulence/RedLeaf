@@ -1,0 +1,84 @@
+.members {
+    padding-top: 122px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.member_intro__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.member_intro__subtitle {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.members_crew {
+    padding-top: 130px;
+}
+
+.member__photo {
+    width: 370px;
+    height: 320px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+}
+
+.member__name {
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.member__work {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.member__links {
+display: -ms-inline-grid;
+display: inline-grid;
+padding-top: 26px;
+}
+
+.fa-telegram {
+    font-size: 40px;
+    color: #0088CC;
+    -webkit-transition: .1s linear transform;
+    -o-transition: .1s linear transform;
+    transition: .1s linear transform;
+}
+
+.fa-telegram:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+@media (max-width: 1000px) {
+    .member__photo {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+        .member__photo {
+            width: 250px;
+            height: 250px;
+        }
+}
+
+@media (max-width: 360px) {
+    .member__photo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 260px) {
+    .member__photo {
+        width: 100px;
+        height: 100px;
+    }
+}
