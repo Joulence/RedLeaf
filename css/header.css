@@ -123,3 +123,10 @@
         position: sticky;
       }
     }
+
+    @media (max-width: 320px) {
+      .header_logo {
+        width: 55px;
+        height: 55px;
+      }
+    }
